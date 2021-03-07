@@ -1,9 +1,10 @@
 //import App from 'next/app'
 import '../styles/dist/styles.css'
 //import 'bootstrap/dist/css/bootstrap.min.css';
+import { ThemeProvider } from 'next-themes'
 
 function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />
+    return <ThemeProvider><Component {...pageProps} /></ThemeProvider>
   }
   
   // Only uncomment this method if you have blocking data requirements for

@@ -9,7 +9,7 @@ const app = next({ dev });
 const handler = app.getRequestHandler();
 
 //router
-const defaultRouter = require('./router/defaultRouter')
+const countrytRouter = require('./router/countryRouter')
 
 
 
@@ -19,7 +19,7 @@ app.prepare().then(()=>{
     server.use(express.json())
 
     //use router for /default
-    server.use('/default',defaultRouter)
+    server.use('/countryApi',countrytRouter)
 
 
 
