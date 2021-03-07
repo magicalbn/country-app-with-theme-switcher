@@ -1,3 +1,13 @@
+# Country App with Theme switch 
+
+## Hosted on Heroku ==> https://country-app-with-theme-switch.herokuapp.com/
+
+React, Next, Express 
+
+API used 
+
+Countries API: https://restcountries.eu/#api-endpoints-all
+
 # Frontend Mentor - REST Countries API with color theme switcher
 
 ![Design preview for the REST Countries API with color theme switcher coding challenge](./design/desktop-preview.jpg)
