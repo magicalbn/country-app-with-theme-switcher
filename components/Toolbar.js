@@ -1,7 +1,7 @@
 import React from 'react';
 import Router from 'next/router'
 
-const Toolbar = (props) => {
+const Toolbar = React.memo((props) => {
 
 
     const { theme, changetheme } = props;
@@ -29,6 +29,6 @@ const Toolbar = (props) => {
             </div>
         </div>
     )
-}
+})
 
 export default Toolbar;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { useTheme } from 'next-themes'
 import Head from 'next/head'
 
@@ -14,11 +14,11 @@ const Layout = (props) => {
 
   
     
-    const changetheme = () => {
+    const changetheme = useCallback(() => {
         if (theme == "light") {
             setTheme("dark")
         } else setTheme("light")
-    }
+    },[theme])
 
     
     return (
