@@ -1,0 +1,20 @@
+{
+    "name": "Where in the world?",
+    "short_name": "Where in the world?",
+    "lang": "en-US",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#202c37",
+    "icons": [
+      {
+        "src": "/static/icons/logo-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/icons/logo-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }

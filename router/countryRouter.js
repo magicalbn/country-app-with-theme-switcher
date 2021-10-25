@@ -6,8 +6,8 @@ const countryNames = require('../data/countries.json')
 
 let router = express.Router();
 
-const ALL_COUNTRY_URL = 'https://restcountries.eu/rest/v2/all'
-const COUNTRY_DETAILS_URL = 'https://restcountries.eu/rest/v2/alpha/'
+const ALL_COUNTRY_URL = 'https://restcountries.com/v2/all'
+const COUNTRY_DETAILS_URL = 'https://restcountries.com/v2/alpha/'
 
 const getAllCountries = async () => {
     try {
@@ -69,7 +69,8 @@ router.get('/alpha3code/:code', (req, res) => {
         else if (response.name && response.name == "Error") {
             res.status(404).send(response.message)
         } else {
-
+            countryBorder = []
+            if (response.borders)
             countryBorder = response.borders.map(eachCountry => {
                 return countryNames.find(eachName => eachName['alpha3-code'] == eachCountry)
             })
@@ -88,7 +89,7 @@ router.get('/alpha3code/:code', (req, res) => {
                 toplevel_domain: response.topLevelDomain,
                 currencies: response.currencies,
                 languages: response.languages,
-                border_countries: countryBorder,
+                border_countries: countryBorder
             }
 
 
