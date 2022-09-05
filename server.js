@@ -20,6 +20,7 @@ app.prepare().then(()=>{
 
     //use router for /default
     server.use('/countryApi',countrytRouter)
+    
 
 
 
