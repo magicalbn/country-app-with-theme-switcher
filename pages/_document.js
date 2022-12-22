@@ -17,21 +17,22 @@ class MyDocument extends Document {
                     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet" />
 
                     <link rel="manifest" href="static/manifest.json" />
-                    
-                    <meta name="mobile-web-app-capable" content="yes" />
+                    <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="/static/icons/logo-512x512.png" />
+                    <meta name="theme-color" content="#202c37" />
+                    {/* <meta name="mobile-web-app-capable" content="yes" />
                     <meta name="apple-mobile-web-app-capable" content="yes" />
                     <meta name="application-name" content="Where in the world?" />
                     <meta name="apple-mobile-web-app-title" content="Where in the world?" />
-                    <meta name="theme-color" content="#202c37" />
+                   
                     <meta name="msapplication-navbutton-color" content="#202c37" />
                     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-                    <meta name="msapplication-starturl" content="/" />
+                    <meta name="msapplication-starturl" content="/" /> */}
                     
 
-                    <link rel="icon" type="image/png" sizes="512x512" href="/static/icons/logo-512x512.png" />
-                    <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="/static/icons/logo-512x512.png" />
+                    {/* <link rel="icon" type="image/png" sizes="512x512" href="/static/icons/logo-512x512.png" />
+                    
                     <link rel="icon" type="image/png" sizes="192x192" href="/static/icons/logo-192x192.png" />
-                    <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="/static/icons/logo-192x192.png" />
+                    <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="/static/icons/logo-192x192.png" /> */}
 
                 </Head>
                 <body>
