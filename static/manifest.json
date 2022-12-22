@@ -4,7 +4,9 @@
     "lang": "en-US",
     "start_url": "/",
     "display": "standalone",
-    "theme_color": "#202c37",
+    "theme_color": "#202c37",   
+    "background_color": "#0ac18e",    
+    "scope": "/",    
     "icons": [
       {
         "src": "/static/icons/logo-512x512.png",
