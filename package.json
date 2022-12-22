@@ -1,12 +1,15 @@
 {
   "name": "country-list-theme-switch",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.16.1"
+  },
   "description": "template",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
     "build": "next build",
-    "start": "SET NODE_ENV=production & node server.js",
+    "start": "NODE_ENV=production node server.js",
     "heroku-postbuild": "next build"
   },
   "author": "nehalb",
