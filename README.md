@@ -1,6 +1,6 @@
 # Country App with Theme switch 
 
-## Hosted on Heroku ==> https://country-app-with-theme-switch.herokuapp.com/
+## Hosted on Render ==> https://country-app-sdar.onrender.com/
 
 React, Next, Express 
 
